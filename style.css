@@ -2,7 +2,7 @@
     --cor-fundo: #01080E ;
     --cor-principal: #0B0D20 ;
     --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
+    --cor-destaque: #e2ab12;
     --cor-texto: #D7F9FF;
 
 }
@@ -23,7 +23,7 @@ body {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    border: 4px solid #5BBE42;
+    border: 4px solid #be9d42;
     animation: borderTransition 2s infinite alternate; 
 }
 
