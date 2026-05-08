@@ -6,15 +6,14 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você precisa criar uma apresentação para a feira de ciências da escola. Um colega sugere usar uma ferramenta de IA que cria slides automaticamente a partir de um tema. O que você pensa?",
-        alternativas: [
+        enunciado: "O que faz um fisioterapeuta?: [
             {
-                texto: "Ótima ideia! Vou usar a IA para ganhar tempo e focar no conteúdo.",
-                afirmacao: "Você aprendeu a usar IA como aliada para otimizar seu tempo e melhorar suas apresentações. "
+                texto: "Ajuda pessoas a recuperar movimentos, aliviar dores e melhorar a qualidade de vida.",
+                afirmacao: "Você aprendeu a usar fisio como aliada para otimizar seu tempo e melhorar suas condições de vida. "
             },
             {
-                texto: "Prefiro fazer meus slides manualmente, sem ajuda de máquinas.",
-                afirmacao: "Você decidiu manter o controle total sobre o design e conteúdo, mas demorou mais para finalizar o trabalho."
+                texto: "A fisioterapia usa exercícios, técnicas e tratamentos para reabilitação do corpo.",
+                afirmacao: "Quem pode fazer fisioterapia? Crianças, adultos, idosos, atletas e qualquer pessoa que precise de cuidados físicos.
             }
         ]
     },
@@ -22,8 +21,8 @@ const perguntas = [
         enunciado: "A IA gerou os slides, mas as imagens e cores não combinam com o seu estilo. O que você faz?",
         alternativas: [
             {
-                texto: "Peço para a IA ajustar o design até ficar do meu agrado.",
-                afirmacao: "Você aprendeu a refinar comandos para a IA (prompts) e conseguiu um resultado personalizado."
+                texto: "Muda de curso.",
+                afirmacao: "Continuo tentando desenvolver algo personalizado."
             },
             {
                 texto: "Edito manualmente cada slide no PowerPoint/Canva.",
